@@ -1,0 +1,188 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "TravelTang",
+      "logo": {
+        "src": "/imgs/logos/china.svg",
+        "alt": "TravelTang",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "常见问题",
+          "url": "/#faq",
+          "icon": "CircleHelp"
+        },
+        {
+          "title": "价格",
+          "url": "/pricing",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "智能助手",
+          "icon": "RiRobot2Line",
+          "children": [
+            {
+              "title": "旅行聊天机器人",
+              "description": "解答海外游客来华旅行中的实际问题",
+              "url": "/chat",
+              "icon": "RiMessage2Line"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "账单",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "活动",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": "TravelTang 已上线面向海外游客的中国支付绑定 PDF 与城市旅游攻略。",
+      "buttonText": "查看价格",
+      "href": "/pricing",
+      "target": "_self",
+      "dismissedExpiryDays": 3
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "TravelTang",
+      "description": "TravelTang 为海外游客提供来华旅行所需的支付绑定指南、城市攻略 PDF，以及可实时答疑的 AI 旅行助手。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "TravelTang",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "产品",
+          "children": [
+            {
+              "title": "功能",
+              "url": "/#features",
+              "target": "_self"
+            },
+            {
+              "title": "价格",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "旅行聊天机器人",
+              "url": "/chat",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "支持",
+          "children": [
+            {
+              "title": "常见问题",
+              "url": "/#faq",
+              "target": "_self"
+            },
+            {
+              "title": "邮箱",
+              "url": "mailto:support@traveltang.com",
+              "target": "_self"
+            },
+            {
+              "title": "聊天助手",
+              "url": "/chat",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "公司",
+          "children": [
+            {
+              "title": "价格",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "隐私政策",
+              "url": "/privacy-policy",
+              "target": "_self"
+            },
+            {
+              "title": "服务条款",
+              "url": "/terms-of-service",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/traveltang",
+          "target": "_blank"
+        },
+        {
+          "title": "Instagram",
+          "icon": "RiInstagramLine",
+          "url": "https://instagram.com/traveltang",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "Mail",
+          "url": "mailto:support@traveltang.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  }
+}

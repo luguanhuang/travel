@@ -1,0 +1,188 @@
+{
+  "header": {
+    "id": "header",
+    "brand": {
+      "title": "TravelTang",
+      "logo": {
+        "src": "/imgs/logos/china.svg",
+        "alt": "TravelTang",
+        "width": 100,
+        "height": 100
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#features",
+          "icon": "Sparkles"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "CircleHelp"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "DollarSign"
+        },
+        {
+          "title": "Assistant",
+          "icon": "RiRobot2Line",
+          "children": [
+            {
+              "title": "Travel Chatbot",
+              "description": "Ask practical questions about traveling in China",
+              "url": "/chat",
+              "icon": "RiMessage2Line"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [],
+    "user_nav": {
+      "show_name": true,
+      "show_credits": true,
+      "show_sign_out": true,
+      "items": [
+        {
+          "title": "Billing",
+          "url": "/settings/billing",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Activity",
+          "url": "/activity",
+          "icon": "Activity"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true,
+    "topbanner": {
+      "text": "TravelTang now includes a China payments setup PDF and city travel guides for international visitors.",
+      "buttonText": "View Pricing",
+      "href": "/pricing",
+      "target": "_self",
+      "dismissedExpiryDays": 3
+    }
+  },
+  "footer": {
+    "id": "footer",
+    "brand": {
+      "title": "TravelTang",
+      "description": "TravelTang helps overseas visitors travel in China with payment setup guides, city strategy PDFs, and an AI travel assistant for real trip questions.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "TravelTang",
+        "width": 1024,
+        "height": 1024
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Product",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#features",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Travel Chatbot",
+              "url": "/chat",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "children": [
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            },
+            {
+              "title": "Email",
+              "url": "mailto:support@traveltang.com",
+              "target": "_self"
+            },
+            {
+              "title": "Chat Assistant",
+              "url": "/chat",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Company",
+          "children": [
+            {
+              "title": "Pricing",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Privacy Policy",
+              "url": "/privacy-policy",
+              "target": "_self"
+            },
+            {
+              "title": "Terms of Service",
+              "url": "/terms-of-service",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/traveltang",
+          "target": "_blank"
+        },
+        {
+          "title": "Instagram",
+          "icon": "RiInstagramLine",
+          "url": "https://instagram.com/traveltang",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "Mail",
+          "url": "mailto:support@traveltang.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    },
+    "show_theme": true,
+    "show_locale": true
+  }
+}

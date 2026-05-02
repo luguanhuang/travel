@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "Showcases",
+    "description": "TravelTang product and experience highlights"
+  },
+  "page": {
+    "title": "Showcases",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "TravelTang experience highlights",
+        "description": "A closer look at the guidance and support flows built for international travelers to China.",
+        "groups": [
+          {
+            "name": "all",
+            "title": "All"
+          },
+          {
+            "name": "payments",
+            "title": "Payments"
+          },
+          {
+            "name": "city-guides",
+            "title": "City Guides"
+          },
+          {
+            "name": "travel-chat",
+            "title": "Travel Chat"
+          }
+        ],
+        "items": [
+          {
+            "title": "China Payment Setup",
+            "description": "Guide for Alipay and WeChat Pay onboarding",
+            "url": "/pricing",
+            "target": "_self",
+            "image": {
+              "src": "/imgs/cases/7.png",
+              "alt": "payments showcase"
+            },
+            "group": "payments"
+          },
+          {
+            "title": "City Guide PDFs",
+            "description": "Practical travel planning by destination",
+            "url": "/pricing",
+            "target": "_self",
+            "image": {
+              "src": "/imgs/cases/5.png",
+              "alt": "city guide showcase"
+            },
+            "group": "city-guides"
+          },
+          {
+            "title": "Travel Q&A Assistant",
+            "description": "Conversational support for real trip questions",
+            "url": "/chat",
+            "target": "_self",
+            "image": {
+              "src": "/imgs/cases/1.png",
+              "alt": "travel chat showcase"
+            },
+            "group": "travel-chat"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "title": "展示",
+    "description": "TravelTang 产品与体验亮点"
+  },
+  "page": {
+    "title": "展示",
+    "sections": {
+      "showcases": {
+        "id": "showcases",
+        "title": "TravelTang 产品亮点",
+        "description": "围绕海外游客来华旅行场景设计的指导内容与答疑体验。",
+        "groups": [
+          {
+            "name": "all",
+            "title": "全部"
+          },
+          {
+            "name": "payments",
+            "title": "支付"
+          },
+          {
+            "name": "city-guides",
+            "title": "城市攻略"
+          },
+          {
+            "name": "travel-chat",
+            "title": "旅行问答"
+          }
+        ],
+        "items": [
+          {
+            "title": "中国支付绑定",
+            "description": "支付宝和微信支付使用指南",
+            "url": "/pricing",
+            "target": "_self",
+            "image": {
+              "src": "/imgs/cases/7.png",
+              "alt": "支付展示"
+            },
+            "group": "payments"
+          },
+          {
+            "title": "城市攻略 PDF",
+            "description": "按目的地整理的实用旅行规划",
+            "url": "/pricing",
+            "target": "_self",
+            "image": {
+              "src": "/imgs/cases/5.png",
+              "alt": "城市攻略展示"
+            },
+            "group": "city-guides"
+          },
+          {
+            "title": "旅行答疑助手",
+            "description": "面向真实旅行问题的对话式支持",
+            "url": "/chat",
+            "target": "_self",
+            "image": {
+              "src": "/imgs/cases/1.png",
+              "alt": "聊天展示"
+            },
+            "group": "travel-chat"
+          }
+        ]
+      }
+    }
+  }
+}

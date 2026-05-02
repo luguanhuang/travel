@@ -1,0 +1,361 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "usage",
+      "features",
+      "stats",
+      "testimonials",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Travel China with clearer answers, better payments, and fewer surprises",
+        "highlight_text": "better payments",
+        "description": "TravelTang is built for international visitors coming to China.<br/>Get practical PDF guides for Alipay and WeChat Pay setup, city-by-city travel planning, and an AI assistant for real travel questions.",
+        "announcement": {
+          "title": "New: China payment setup guide + city travel PDF bundle",
+          "url": "/pricing"
+        },
+        "tip": "Designed for overseas travelers who want practical guidance before and during a China trip.",
+        "buttons": [
+          {
+            "title": "See Plans",
+            "icon": "Zap",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "Open Travel Assistant",
+            "icon": "MessageCircle",
+            "url": "/chat",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": true,
+        "avatars_tip": "1,000+ travelers are preparing their China trip with TravelTang",
+        "show_award": false,
+        "mini_items": [
+          {
+            "title": "Alipay setup",
+            "image": {
+              "src": "/imgs/icons/alipay.svg",
+              "alt": "Alipay"
+            }
+          },
+          {
+            "title": "WeChat Pay setup",
+            "image": {
+              "src": "/imgs/icons/wechat-pay.svg",
+              "alt": "WeChat Pay"
+            }
+          },
+          {
+            "title": "City guide PDFs",
+            "icon": "Map"
+          },
+          {
+            "title": "Trip planning notes",
+            "icon": "Compass"
+          },
+          {
+            "title": "Downloadable PDFs",
+            "icon": "FileText"
+          }
+        ],
+        "image": {
+          "src": "/imgs/features/admin.png",
+          "alt": "TravelTang travel assistant and guide platform",
+          "width": 1200,
+          "height": 800
+        },
+        "image_invert": {
+          "src": "/imgs/features/admin-dark.png",
+          "alt": "TravelTang travel assistant and guide platform",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "/imgs/bg/tree.jpg",
+          "alt": "China travel background"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "What TravelTang sells",
+        "label": "Overview",
+        "description": "TravelTang turns the hardest early trip questions into practical, paid travel resources for overseas visitors.",
+        "image": {
+          "src": "/imgs/features/landing-page.png?v=20260430-1",
+          "alt": "TravelTang overview"
+        },
+        "items": [
+          {
+            "title": "China Payments PDF",
+            "description": "A step-by-step guide for linking bank cards and using Alipay and WeChat Pay with fewer setup mistakes.",
+            "icon": "CreditCard",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "China payments guide"
+            }
+          },
+          {
+            "title": "City Travel Guide PDF",
+            "description": "Practical planning notes for major China destinations, including transport, attractions, and travel habits.",
+            "icon": "Map",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "City travel guide"
+            }
+          },
+          {
+            "title": "AI Travel Chatbot",
+            "description": "Ask questions about payments, trains, SIM cards, hotels, local apps, and trip planning in one place.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "Travel chatbot"
+            }
+          },
+          {
+            "title": "Built for Foreign Visitors",
+            "description": "The product is written around the friction international travelers actually face when visiting China.",
+            "icon": "Globe",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "International travelers"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "Why travelers use TravelTang",
+        "label": "Benefits",
+        "description": "The product focuses on the parts of a China trip that usually create confusion before arrival and after landing.",
+        "items": [
+          {
+            "title": "Clearer payment setup before departure",
+            "description": "Travelers get a dedicated PDF for Alipay and WeChat Pay setup instead of piecing together random forum posts and outdated videos.",
+            "icon": "Wallet",
+            "image": {
+              "src": "/imgs/features/user-billing.png",
+              "alt": "Payment setup guidance"
+            }
+          },
+          {
+            "title": "Practical city guides, not generic inspiration",
+            "description": "The city PDF focuses on transport, booking habits, local apps, and on-the-ground decisions that matter more than broad sightseeing lists.",
+            "icon": "MapPinned",
+            "image": {
+              "src": "/imgs/features/admin-settings.png",
+              "alt": "City travel planning"
+            }
+          },
+          {
+            "title": "Instant answers while traveling",
+            "description": "The chatbot gives travelers a fast place to ask follow-up questions when plans change or a local workflow is confusing.",
+            "icon": "MessageSquareMore",
+            "image": {
+              "src": "/imgs/features/landing-page.png?v=20260430-1",
+              "alt": "Travel chatbot support"
+            }
+          }
+        ]
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "usage",
+        "label": "How It Works",
+        "title": "How travelers use TravelTang",
+        "description": "The product is structured around planning before the trip and support during the trip.",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "TravelTang workflow"
+        },
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "Choose a paid plan",
+            "description": "Buy the PDF bundle, chatbot access, or the combined package depending on how much support you want."
+          },
+          {
+            "title": "Read the guides before arrival",
+            "description": "Use the payment setup guide and city PDF to prepare your wallet, transport habits, and itinerary."
+          },
+          {
+            "title": "Ask questions in chat",
+            "description": "Use the chatbot to clarify trip details such as train booking, app usage, payments, and local travel decisions."
+          },
+          {
+            "title": "Travel with less friction",
+            "description": "Arrive with the essentials already understood, instead of troubleshooting everything after landing."
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "features": {
+        "id": "features",
+        "title": "Core product features",
+        "description": "TravelTang is focused on paid travel guidance, not broad travel content.",
+        "items": [
+          {
+            "title": "Detailed Alipay and WeChat Pay setup guide",
+            "description": "Covers the payment setup flow international visitors usually need before they can pay smoothly in China.",
+            "icon": "CreditCard"
+          },
+          {
+            "title": "City-specific PDF travel planning",
+            "description": "Paid guides explain how to move around, what to prepare, and what travelers should expect on arrival.",
+            "icon": "Map"
+          },
+          {
+            "title": "AI chatbot for travel Q&A",
+            "description": "A travel-focused assistant that answers practical China trip questions in a conversational format.",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "Traveler-focused knowledge base",
+            "description": "Content is framed for non-Chinese users who need context around apps, payments, transport, and local workflows.",
+            "icon": "BookOpenText"
+          },
+          {
+            "title": "Paid digital delivery",
+            "description": "Travelers can purchase exactly the guidance they need instead of signing up for a broad membership product.",
+            "icon": "BadgeDollarSign"
+          },
+          {
+            "title": "Useful before and during the trip",
+            "description": "The PDFs help before departure, and the chatbot remains useful after arrival when new questions appear.",
+            "icon": "Plane"
+          }
+        ]
+      },
+      "stats": {
+        "id": "stats",
+        "title": "Built around the most common friction points",
+        "description": "TravelTang focuses on the trip problems that usually cost visitors the most time.",
+        "items": [
+          {
+            "title": "2",
+            "description": "Paid PDF guides"
+          },
+          {
+            "title": "1",
+            "description": "Travel chatbot"
+          },
+          {
+            "title": "24/7",
+            "description": "Question support flow"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "title": "What travelers say about TravelTang",
+        "description": "Feedback from international visitors who used the guides and travel assistant before or during a China trip.",
+        "items": [
+          {
+            "name": "Emma Wilson",
+            "role": "Visitor from the UK",
+            "quote": "The payment PDF saved me a lot of trial and error. I set up Alipay before landing and avoided the usual first-day payment confusion.",
+            "image": {
+              "src": "/imgs/avatars/1.png",
+              "alt": "Emma Wilson"
+            }
+          },
+          {
+            "name": "Daniel Park",
+            "role": "Traveler from Canada",
+            "quote": "The city guide was much more practical than general travel blogs. It focused on transport, apps, and what I actually needed on the ground.",
+            "image": {
+              "src": "/imgs/avatars/2.png",
+              "alt": "Daniel Park"
+            }
+          },
+          {
+            "name": "Sofia Martinez",
+            "role": "First-time visitor to China",
+            "quote": "I used the chatbot during the trip when train bookings and local apps became confusing. It was faster than searching through scattered forum answers.",
+            "image": {
+              "src": "/imgs/avatars/3.png",
+              "alt": "Sofia Martinez"
+            }
+          },
+          {
+            "name": "Liam Chen",
+            "role": "Family trip planner",
+            "quote": "The combined package made sense for us. We used the PDFs before departure and the chatbot after arriving when we had more detailed questions.",
+            "image": {
+              "src": "/imgs/avatars/4.png",
+              "alt": "Liam Chen"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently asked questions",
+        "description": "Questions travelers usually ask before paying.",
+        "items": [
+          {
+            "question": "What is included in the PDF package?",
+            "answer": "The PDF package includes two paid guides: one for setting up Alipay and WeChat Pay as an international visitor, and one with city travel guidance for China trips."
+          },
+          {
+            "question": "Is the chatbot only about payments?",
+            "answer": "No. The chatbot is for broader China travel questions, including payments, transport, booking habits, local apps, trip planning, and common traveler confusion."
+          },
+          {
+            "question": "Who is TravelTang for?",
+            "answer": "It is built for overseas travelers coming to China who need clearer practical guidance, especially around digital payments and on-the-ground travel logistics."
+          },
+          {
+            "question": "Can I buy just the PDFs without chatbot access?",
+            "answer": "Yes. The pricing page can offer a PDF-only option, chatbot access, and a combined package."
+          },
+          {
+            "question": "When should I use the guides?",
+            "answer": "The payment guide is most useful before departure. The city guide helps before and during the trip, while the chatbot is useful whenever new questions come up."
+          },
+          {
+            "question": "Does TravelTang replace official travel providers or booking platforms?",
+            "answer": "No. TravelTang is a guidance product. It helps travelers understand what to do, what to prepare, and how to navigate common travel workflows in China."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Prepare your China trip with fewer unknowns",
+        "description": "Get the guides, ask questions, and arrive better prepared.",
+        "buttons": [
+          {
+            "title": "View Pricing",
+            "url": "/pricing",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "Open Chatbot",
+            "url": "/chat",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageCircle"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

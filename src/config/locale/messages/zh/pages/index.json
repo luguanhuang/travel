@@ -1,0 +1,361 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "introduce",
+      "benefits",
+      "usage",
+      "features",
+      "stats",
+      "testimonials",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "让海外游客来中国旅行时，支付更顺、信息更清楚、少踩坑",
+        "highlight_text": "支付更顺",
+        "description": "TravelTang 面向来中国旅游的海外游客。<br/>提供支付宝和微信支付绑定 PDF、城市旅游攻略 PDF，以及可随时提问的 AI 旅行助手。",
+        "announcement": {
+          "title": "新上线：中国支付绑定指南 + 城市旅游攻略 PDF 套装",
+          "url": "/pricing"
+        },
+        "tip": "适合希望在出发前和旅行中都获得实际帮助的海外游客。",
+        "buttons": [
+          {
+            "title": "查看套餐",
+            "icon": "Zap",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "打开旅行助手",
+            "icon": "MessageCircle",
+            "url": "/chat",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": true,
+        "avatars_tip": "1000+ 海外游客正在用 TravelTang 准备中国旅行",
+        "show_award": false,
+        "mini_items": [
+          {
+            "title": "鏀粯瀹?",
+            "image": {
+              "src": "/imgs/icons/alipay.svg",
+              "alt": "Alipay"
+            }
+          },
+          {
+            "title": "寰俊鏀粯",
+            "image": {
+              "src": "/imgs/icons/wechat-pay.svg",
+              "alt": "WeChat Pay"
+            }
+          },
+          {
+            "title": "City PDFs",
+            "icon": "Map"
+          },
+          {
+            "title": "Trip planning",
+            "icon": "Compass"
+          },
+          {
+            "title": "PDF files",
+            "icon": "FileText"
+          }
+        ],
+        "image": {
+          "src": "/imgs/features/admin.png",
+          "alt": "TravelTang 旅行助手与指南平台",
+          "width": 1200,
+          "height": 800
+        },
+        "image_invert": {
+          "src": "/imgs/features/admin-dark.png",
+          "alt": "TravelTang 旅行助手与指南平台",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "/imgs/bg/tree.jpg",
+          "alt": "中国旅行背景"
+        }
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "TravelTang 提供什么",
+        "label": "产品概览",
+        "description": "TravelTang 把海外游客来华旅行前后最容易卡住的问题，整理成可付费购买的实用旅行资源。",
+        "image": {
+          "src": "/imgs/features/landing-page.png?v=20260430-1",
+          "alt": "TravelTang 产品概览"
+        },
+        "items": [
+          {
+            "title": "中国支付绑定 PDF",
+            "description": "一步一步讲清楚海外游客如何绑定银行卡并使用支付宝和微信支付，减少设置失误。",
+            "icon": "CreditCard",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "支付指南"
+            }
+          },
+          {
+            "title": "城市旅游攻略 PDF",
+            "description": "覆盖中国主要城市的实用旅行信息，包括交通、景点安排和本地出行习惯。",
+            "icon": "Map",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "城市攻略"
+            }
+          },
+          {
+            "title": "AI 旅行聊天机器人",
+            "description": "集中解答支付、火车、高铁、SIM 卡、酒店、本地 App 和行程规划相关问题。",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "旅行机器人"
+            }
+          },
+          {
+            "title": "专为海外游客设计",
+            "description": "内容围绕外国游客在中国旅行时真正会遇到的摩擦点来写，而不是泛泛而谈的旅游介绍。",
+            "icon": "Globe",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "海外游客"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "benefits": {
+        "block": "features-accordion",
+        "id": "benefits",
+        "title": "为什么游客会使用 TravelTang",
+        "label": "产品价值",
+        "description": "TravelTang 聚焦的是来华旅行中最容易造成困扰的几个关键环节，尤其是出发前准备和落地后的实际操作。",
+        "items": [
+          {
+            "title": "出发前先把支付问题搞清楚",
+            "description": "相比零散地看论坛帖子和过时视频，游客可以直接获得针对支付宝和微信支付的专门 PDF 指南。",
+            "icon": "Wallet",
+            "image": {
+              "src": "/imgs/features/user-billing.png",
+              "alt": "支付准备"
+            }
+          },
+          {
+            "title": "城市攻略更偏实操，而不是泛内容",
+            "description": "攻略重点放在交通、预订习惯、本地 App 使用和落地后的决策，而不是只列景点名单。",
+            "icon": "MapPinned",
+            "image": {
+              "src": "/imgs/features/admin-settings.png",
+              "alt": "城市旅行规划"
+            }
+          },
+          {
+            "title": "旅行中遇到问题可以即时提问",
+            "description": "当计划变化，或者本地流程看不懂时，聊天机器人可以作为一个快速补充说明的入口。",
+            "icon": "MessageSquareMore",
+            "image": {
+              "src": "/imgs/features/landing-page.png?v=20260430-1",
+              "alt": "旅行答疑"
+            }
+          }
+        ]
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "usage",
+        "label": "使用方式",
+        "title": "游客如何使用 TravelTang",
+        "description": "产品结构围绕出发前准备和旅行中答疑两条主线来设计。",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "TravelTang 使用流程"
+        },
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "选择付费方案",
+            "description": "可购买 PDF 套装、聊天助手访问权限，或两者组合套餐。"
+          },
+          {
+            "title": "出发前先阅读指南",
+            "description": "先用支付绑定指南和城市攻略准备钱包、出行习惯和基础行程。"
+          },
+          {
+            "title": "旅行中随时发起提问",
+            "description": "围绕高铁购票、App 使用、支付方式和当地旅行决策继续向聊天机器人提问。"
+          },
+          {
+            "title": "减少落地后的临时排错",
+            "description": "在抵达前先理解关键流程，避免把大量时间耗在现场摸索。"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "features": {
+        "id": "features",
+        "title": "核心产品功能",
+        "description": "TravelTang 是一个围绕付费旅行指导而设计的产品，不是泛旅游内容站。",
+        "items": [
+          {
+            "title": "支付宝和微信支付详细绑定指南",
+            "description": "覆盖海外游客在中国顺利使用数字支付前最需要理解的设置流程。",
+            "icon": "CreditCard"
+          },
+          {
+            "title": "按城市组织的旅行 PDF",
+            "description": "针对不同城市说明如何出行、如何准备，以及落地后需要注意什么。",
+            "icon": "Map"
+          },
+          {
+            "title": "AI 旅行问答机器人",
+            "description": "用对话方式回答中国旅行中的实际问题，适合持续追问和临场补充。",
+            "icon": "RiRobot2Line"
+          },
+          {
+            "title": "面向外国游客的知识组织方式",
+            "description": "围绕非中文用户对支付、交通、本地应用和出行流程的理解门槛来设计内容。",
+            "icon": "BookOpenText"
+          },
+          {
+            "title": "数字产品直接交付",
+            "description": "用户可以只购买自己需要的指导内容，而不是被迫订阅一个过宽的会员产品。",
+            "icon": "BadgeDollarSign"
+          },
+          {
+            "title": "出发前与旅行中都能使用",
+            "description": "PDF 在行前准备最有价值，聊天机器人则在旅途中持续有用。",
+            "icon": "Plane"
+          }
+        ]
+      },
+      "stats": {
+        "id": "stats",
+        "title": "围绕最常见的旅行阻力点设计",
+        "description": "TravelTang 解决的是最容易浪费游客时间的关键问题。",
+        "items": [
+          {
+            "title": "2",
+            "description": "付费 PDF 指南"
+          },
+          {
+            "title": "1",
+            "description": "旅行聊天机器人"
+          },
+          {
+            "title": "24/7",
+            "description": "问答支持场景"
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "title": "用户如何评价 TravelTang",
+        "description": "这些反馈来自在来华前或旅行中使用过指南和聊天助手的海外游客。",
+        "items": [
+          {
+            "name": "Emma Wilson",
+            "role": "英国游客",
+            "quote": "支付 PDF 帮我省掉了很多试错时间。我在落地前就把支付宝准备好了，第一天没有再卡在支付问题上。",
+            "image": {
+              "src": "/imgs/avatars/1.png",
+              "alt": "Emma Wilson"
+            }
+          },
+          {
+            "name": "Daniel Park",
+            "role": "加拿大游客",
+            "quote": "城市攻略比普通旅游博客实用得多，重点讲交通、本地 App 和真正落地后会遇到的操作问题。",
+            "image": {
+              "src": "/imgs/avatars/2.png",
+              "alt": "Daniel Park"
+            }
+          },
+          {
+            "name": "Sofia Martinez",
+            "role": "第一次来中国旅游",
+            "quote": "我在旅行中用聊天机器人补充问了很多细节，尤其是火车票和本地应用的问题，比自己到处搜答案快很多。",
+            "image": {
+              "src": "/imgs/avatars/3.png",
+              "alt": "Sofia Martinez"
+            }
+          },
+          {
+            "name": "Liam Chen",
+            "role": "家庭行程规划者",
+            "quote": "组合套餐很合理。我们出发前先看 PDF，到了中国以后再用聊天助手继续补问题，衔接得很好。",
+            "image": {
+              "src": "/imgs/avatars/4.png",
+              "alt": "Liam Chen"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "这些是游客在付费前最常问的问题。",
+        "items": [
+          {
+            "question": "PDF 套装里包含什么？",
+            "answer": "PDF 套装包含两份付费指南：一份是海外游客如何绑定支付宝和微信支付，另一份是中国城市旅游攻略。"
+          },
+          {
+            "question": "聊天机器人只回答支付问题吗？",
+            "answer": "不是。聊天机器人也会回答交通、预订习惯、本地 App、行程规划，以及中国旅行中的常见困惑。"
+          },
+          {
+            "question": "TravelTang 适合谁？",
+            "answer": "适合计划来中国旅游的海外游客，尤其是希望在支付方式和旅行流程上获得更清晰实用指导的人。"
+          },
+          {
+            "question": "可以只买 PDF，不买聊天服务吗？",
+            "answer": "可以。价格页可以提供仅 PDF、仅聊天助手，以及组合套餐三种方向。"
+          },
+          {
+            "question": "这些指南应该在什么时候使用？",
+            "answer": "支付指南最适合出发前阅读。城市攻略在行前和旅行中都适用，而聊天机器人则适合随时追问新问题。"
+          },
+          {
+            "question": "TravelTang 会替代官方预订平台或出行服务吗？",
+            "answer": "不会。TravelTang 是指导型产品，帮助游客理解应该怎么准备、怎么操作，以及如何应对中国旅行中的常见流程。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "让你的中国旅行少一点未知",
+        "description": "先拿到指南，再用聊天助手补充问题，出发会更从容。",
+        "buttons": [
+          {
+            "title": "查看价格",
+            "url": "/pricing",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "打开聊天机器人",
+            "url": "/chat",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "MessageCircle"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

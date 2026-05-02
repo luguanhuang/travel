@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "title": "博客",
+    "description": "查看 TravelTang 更新、中国旅游建议和产品指南。"
+  },
+  "page": {
+    "title": "TravelTang 博客",
+    "sections": {
+      "blog": {
+        "id": "blog",
+        "title": "博客",
+        "description": "查看 TravelTang 更新、中国旅游建议和产品指南。"
+      }
+    }
+  },
+  "messages": {
+    "all": "全部",
+    "no_content": "暂无内容",
+    "crumb": "博客",
+    "toc": "目录"
+  }
+}
