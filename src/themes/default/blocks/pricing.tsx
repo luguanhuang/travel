@@ -324,6 +324,18 @@ export function Pricing({
     }
   }, [section.items]);
 
+  const visibleItems =
+    section.items?.filter(
+      (item) => !item.group || !group || item.group === group
+    ) || [];
+
+  const gridColumnsClass =
+    visibleItems.length === 1
+      ? 'max-w-md md:grid-cols-1'
+      : visibleItems.length === 2
+        ? 'max-w-3xl md:grid-cols-2'
+        : 'lg:grid-cols-3';
+
   return (
     <section
       id={section.id}
@@ -342,7 +354,7 @@ export function Pricing({
       </div>
 
       <div className="container">
-        {section.groups && section.groups.length > 0 && (
+        {section.groups && section.groups.length > 1 && (
           <div className="mx-auto mt-8 mb-16 flex w-full justify-center md:max-w-lg">
             <Tabs value={group} onValueChange={setGroup} className="">
               <TabsList>
@@ -361,17 +373,8 @@ export function Pricing({
           </div>
         )}
 
-        <div
-          className={`mx-auto mt-0 grid w-full gap-6 md:grid-cols-${
-            section.items?.filter((item) => !item.group || item.group === group)
-              ?.length
-          }`}
-        >
-          {section.items?.map((item: PricingItem, idx) => {
-            if (item.group && item.group !== group) {
-              return null;
-            }
-
+        <div className={cn('mx-auto mt-0 grid w-full gap-6', gridColumnsClass)}>
+          {visibleItems.map((item: PricingItem, idx) => {
             let isCurrentPlan = false;
             if (
               currentSubscription &&

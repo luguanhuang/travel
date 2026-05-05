@@ -9,296 +9,61 @@
       "pricing": {
         "id": "pricing",
         "title": "价格",
-        "description": "可选择 PDF 指南套装、聊天助手访问权限，或完整组合套餐。",
-        "groups": [
-          {
-            "name": "one-time",
-            "title": "一次性购买"
-          },
-          {
-            "name": "monthly",
-            "title": "包月",
-            "is_featured": true,
-            "label": "更灵活"
-          },
-          {
-            "name": "yearly",
-            "title": "包年"
-          }
-        ],
+        "description": "两个固定价格档位，按需选择即可。",
         "items": [
           {
-            "title": "PDF 指南套装",
-            "description": "出发前拿到两份核心付费 PDF。",
-            "features_title": "包含",
+            "title": "档位 1",
+            "description": "29 元，支持下载两份 PDF 文件。",
+            "features_title": "包含内容",
             "features": [
-              "支付宝和微信支付绑定 PDF",
-              "中国城市旅游攻略 PDF",
-              "面向海外游客的实操步骤说明",
-              "适合出发前与旅行中查阅",
-              "一次购买即可使用"
+              "支付逻辑 PDF",
+              "中国旅游攻略 PDF",
+              "支持下载以上两份 PDF 文件"
             ],
             "interval": "one-time",
-            "amount": 9900,
-            "currency": "USD",
-            "price": "$99",
-            "original_price": "$129",
+            "amount": 2900,
+            "currency": "CNY",
+            "price": "¥29",
             "unit": "",
             "is_featured": false,
-            "tip": "适合主要希望获得结构化阅读资料的游客。",
+            "tip": "适合只需要两份 PDF 资料的用户。",
             "button": {
-              "title": "购买 PDF 套装",
+              "title": "购买档位 1",
               "url": "/#pricing",
               "icon": "RiFlashlightFill"
             },
             "product_id": "starter",
-            "product_name": "TravelTang PDF 指南套装",
+            "product_name": "TravelTang 档位 1",
             "credits": 100,
-            "valid_days": 30,
-            "group": "one-time"
+            "valid_days": 30
           },
           {
-            "title": "旅行助手通行证",
-            "description": "获得聊天机器人访问权限，实时提问。",
+            "title": "档位 2",
+            "description": "49 元，包含两份 PDF 和 AI 旅游助手。",
             "label": "热门",
-            "features_title": "适合持续问答",
+            "features_title": "包含内容",
             "features": [
-              "中国旅行 AI 聊天机器人",
-              "可回答支付、交通、App 与行程问题",
-              "适合行程变化时快速补充信息",
-              "比零散搜索旅行帖子更直接",
-              "适合问题较多的游客"
+              "支付逻辑 PDF",
+              "中国旅游攻略 PDF",
+              "AI 旅游助手",
+              "7/24 小时帮助你"
             ],
             "interval": "one-time",
-            "amount": 19900,
-            "currency": "USD",
-            "price": "$199",
-            "original_price": "$249",
+            "amount": 4900,
+            "currency": "CNY",
+            "price": "¥49",
             "unit": "",
             "is_featured": true,
-            "tip": "适合预计会持续追问细节的游客。",
+            "tip": "适合希望拿到资料并随时咨询 AI 助手的用户。",
             "button": {
-              "title": "购买聊天助手",
+              "title": "购买档位 2",
               "url": "/#pricing",
               "icon": "RiFlashlightFill"
             },
             "product_id": "standard",
-            "product_name": "TravelTang 旅行助手通行证",
+            "product_name": "TravelTang 档位 2",
             "credits": 200,
-            "valid_days": 90,
-            "group": "one-time"
-          },
-          {
-            "title": "完整旅行包",
-            "description": "两份 PDF 与聊天助手一起获取。",
-            "features_title": "包含 PDF 与聊天服务",
-            "features": [
-              "支付宝和微信支付绑定 PDF",
-              "中国城市旅游攻略 PDF",
-              "旅行聊天机器人访问权限",
-              "覆盖出发前准备与旅行中答疑",
-              "适合希望一步到位的游客"
-            ],
-            "interval": "one-time",
-            "amount": 29900,
-            "currency": "USD",
-            "price": "$299",
-            "original_price": "$349",
-            "unit": "",
-            "is_featured": false,
-            "tip": "适合既要提前准备，又要旅行中实时支持的游客。",
-            "button": {
-              "title": "购买完整旅行包",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium",
-            "product_name": "TravelTang 完整旅行包",
-            "credits": 300,
-            "valid_days": 365,
-            "group": "one-time"
-          },
-          {
-            "title": "PDF 指南套装",
-            "description": "按月获取 PDF 指南访问权限。",
-            "features_title": "包含",
-            "features": [
-              "支付宝和微信支付绑定 PDF",
-              "中国城市旅游攻略 PDF",
-              "适合短期旅行准备",
-              "按月访问"
-            ],
-            "interval": "month",
-            "amount": 8900,
-            "currency": "USD",
-            "price": "$89",
-            "original_price": "$99",
-            "unit": "/ 月",
-            "is_featured": false,
-            "tip": "适合一次旅行周期内集中使用。",
-            "button": {
-              "title": "选择 PDF 套装",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "starter-monthly",
-            "product_name": "TravelTang PDF 指南套装包月",
-            "credits": 100,
-            "valid_days": 30,
-            "group": "monthly",
-            "plan_name": "PDF 指南套装"
-          },
-          {
-            "title": "旅行助手通行证",
-            "description": "按月获得聊天机器人访问权限。",
-            "label": "热门",
-            "features_title": "包含",
-            "features": [
-              "中国旅行 AI 聊天机器人",
-              "支持出发前与旅行中的持续提问",
-              "适合行程不断变化的场景",
-              "按月订阅访问"
-            ],
-            "interval": "month",
-            "amount": 16900,
-            "currency": "USD",
-            "price": "$169",
-            "original_price": "$199",
-            "unit": "/ 月",
-            "is_featured": true,
-            "tip": "适合需要持续答疑、又希望购买方式更灵活的游客。",
-            "button": {
-              "title": "选择聊天助手",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "standard-monthly",
-            "product_name": "TravelTang 旅行助手通行证包月",
-            "credits": 200,
-            "valid_days": 30,
-            "group": "monthly",
-            "plan_name": "旅行助手通行证"
-          },
-          {
-            "title": "完整旅行包",
-            "description": "按月获得 PDF 与聊天助手完整访问。",
-            "features_title": "包含",
-            "features": [
-              "两份付费 PDF",
-              "聊天机器人访问权限",
-              "覆盖行前准备与旅行中支持",
-              "按月订阅访问"
-            ],
-            "interval": "month",
-            "amount": 24900,
-            "currency": "USD",
-            "price": "$249",
-            "original_price": "$299",
-            "unit": "/ 月",
-            "is_featured": false,
-            "tip": "适合希望完整使用 TravelTang 产品的游客。",
-            "button": {
-              "title": "选择完整旅行包",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium-monthly",
-            "product_name": "TravelTang 完整旅行包包月",
-            "credits": 300,
-            "valid_days": 30,
-            "group": "monthly",
-            "plan_name": "完整旅行包"
-          },
-          {
-            "title": "PDF 指南套装",
-            "description": "适合多次来华旅行者的年度指南访问。",
-            "features_title": "包含",
-            "features": [
-              "支付宝和微信支付绑定 PDF",
-              "中国城市旅游攻略 PDF",
-              "全年访问",
-              "适合计划多次来华的游客"
-            ],
-            "interval": "year",
-            "amount": 82800,
-            "currency": "USD",
-            "price": "$69",
-            "original_price": "$89",
-            "unit": "/ 月",
-            "is_featured": false,
-            "tip": "对重复来华用户更划算。",
-            "button": {
-              "title": "选择 PDF 套装",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "starter-yearly",
-            "product_name": "TravelTang PDF 指南套装包年",
-            "credits": 1200,
-            "valid_days": 365,
-            "group": "yearly",
-            "plan_name": "PDF 指南套装"
-          },
-          {
-            "title": "旅行助手通行证",
-            "description": "适合频繁来华或长期规划者的年度聊天访问。",
-            "label": "热门",
-            "features_title": "包含",
-            "features": [
-              "中国旅行 AI 聊天机器人",
-              "适合多次出行时反复提问",
-              "支持更长周期的旅行规划",
-              "全年订阅访问"
-            ],
-            "interval": "year",
-            "amount": 154800,
-            "currency": "USD",
-            "price": "$129",
-            "original_price": "$169",
-            "unit": "/ 月",
-            "is_featured": true,
-            "tip": "适合会多次来中国，或需要长期旅行答疑的人。",
-            "button": {
-              "title": "选择聊天助手",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "standard-yearly",
-            "product_name": "TravelTang 旅行助手通行证包年",
-            "credits": 2400,
-            "valid_days": 365,
-            "group": "yearly",
-            "plan_name": "旅行助手通行证"
-          },
-          {
-            "title": "完整旅行包",
-            "description": "年度获得 PDF 与聊天助手完整访问。",
-            "features_title": "包含",
-            "features": [
-              "两份付费 PDF",
-              "聊天机器人访问权限",
-              "适合高频来华和高支持需求用户",
-              "全年订阅访问"
-            ],
-            "interval": "year",
-            "amount": 226800,
-            "currency": "USD",
-            "price": "$189",
-            "original_price": "$249",
-            "unit": "/ 月",
-            "is_featured": false,
-            "tip": "TravelTang 覆盖范围最完整、长期单价最低的方案。",
-            "button": {
-              "title": "选择完整旅行包",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium-yearly",
-            "product_name": "TravelTang 完整旅行包包年",
-            "credits": 3600,
-            "valid_days": 365,
-            "group": "yearly",
-            "plan_name": "完整旅行包"
+            "valid_days": 90
           }
         ]
       }

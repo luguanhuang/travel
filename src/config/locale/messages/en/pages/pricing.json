@@ -9,296 +9,61 @@
       "pricing": {
         "id": "pricing",
         "title": "Pricing",
-        "description": "Choose between the PDF guide bundle, chatbot access, or the full TravelTang package.",
-        "groups": [
-          {
-            "name": "one-time",
-            "title": "One-Time"
-          },
-          {
-            "name": "monthly",
-            "title": "Monthly",
-            "is_featured": true,
-            "label": "Most flexible"
-          },
-          {
-            "name": "yearly",
-            "title": "Yearly"
-          }
-        ],
+        "description": "Choose between two fixed-price TravelTang plans.",
         "items": [
           {
-            "title": "Guide Bundle",
-            "description": "Get both paid PDFs before your trip.",
+            "title": "Plan 1",
+            "description": "RMB 29 with download access to two PDF files.",
             "features_title": "Includes",
             "features": [
-              "Alipay and WeChat Pay setup PDF",
-              "China city travel guide PDF",
-              "Practical setup steps for international visitors",
-              "Useful before departure and during the trip",
-              "Single purchase access"
+              "Payment guide PDF",
+              "China travel guide PDF",
+              "Download access to both PDF files"
             ],
             "interval": "one-time",
-            "amount": 9900,
-            "currency": "USD",
-            "price": "$99",
-            "original_price": "$129",
+            "amount": 2900,
+            "currency": "CNY",
+            "price": "¥29",
             "unit": "",
             "is_featured": false,
-            "tip": "Best for travelers who mainly want structured reading material.",
+            "tip": "Best for users who only need the two PDF downloads.",
             "button": {
-              "title": "Buy Guide Bundle",
+              "title": "Buy Plan 1",
               "url": "/#pricing",
               "icon": "RiFlashlightFill"
             },
             "product_id": "starter",
-            "product_name": "TravelTang Guide Bundle",
+            "product_name": "TravelTang Plan 1",
             "credits": 100,
-            "valid_days": 30,
-            "group": "one-time"
+            "valid_days": 30
           },
           {
-            "title": "Travel Assistant Pass",
-            "description": "Get chatbot access for live travel questions.",
+            "title": "Plan 2",
+            "description": "RMB 49 including both PDFs and the AI travel assistant.",
             "label": "Popular",
-            "features_title": "Everything you need for live Q&A",
+            "features_title": "Includes",
             "features": [
-              "AI chatbot for China travel questions",
-              "Support for payments, transport, apps, and trip planning",
-              "Useful during itinerary changes",
-              "Faster than searching fragmented travel threads",
-              "Good for travelers who want ongoing answers"
+              "Payment guide PDF",
+              "China travel guide PDF",
+              "AI travel assistant",
+              "24/7 help whenever you need it"
             ],
             "interval": "one-time",
-            "amount": 19900,
-            "currency": "USD",
-            "price": "$199",
-            "original_price": "$249",
+            "amount": 4900,
+            "currency": "CNY",
+            "price": "¥49",
             "unit": "",
             "is_featured": true,
-            "tip": "Best for travelers who expect lots of follow-up questions.",
+            "tip": "Best for users who want both PDF materials and ongoing AI help.",
             "button": {
-              "title": "Buy Assistant Pass",
+              "title": "Buy Plan 2",
               "url": "/#pricing",
               "icon": "RiFlashlightFill"
             },
             "product_id": "standard",
-            "product_name": "TravelTang Travel Assistant Pass",
+            "product_name": "TravelTang Plan 2",
             "credits": 200,
-            "valid_days": 90,
-            "group": "one-time"
-          },
-          {
-            "title": "Complete Travel Pack",
-            "description": "Get both PDFs and chatbot access together.",
-            "features_title": "Everything in Guide Bundle and Assistant Pass, plus",
-            "features": [
-              "Alipay and WeChat Pay setup PDF",
-              "China city travel guide PDF",
-              "Travel chatbot access",
-              "One package for before and during the trip",
-              "Best value for travelers who want full coverage"
-            ],
-            "interval": "one-time",
-            "amount": 29900,
-            "currency": "USD",
-            "price": "$299",
-            "original_price": "$349",
-            "unit": "",
-            "is_featured": false,
-            "tip": "Best for travelers who want both preparation and live support.",
-            "button": {
-              "title": "Buy Complete Pack",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium",
-            "product_name": "TravelTang Complete Travel Pack",
-            "credits": 300,
-            "valid_days": 365,
-            "group": "one-time"
-          },
-          {
-            "title": "Guide Bundle",
-            "description": "PDF access with monthly billing.",
-            "features_title": "Includes",
-            "features": [
-              "Alipay and WeChat Pay setup PDF",
-              "China city travel guide PDF",
-              "Good for short-term trip preparation",
-              "Monthly access window"
-            ],
-            "interval": "month",
-            "amount": 8900,
-            "currency": "USD",
-            "price": "$89",
-            "original_price": "$99",
-            "unit": "/ month",
-            "is_featured": false,
-            "tip": "Monthly access for travelers planning one trip at a time.",
-            "button": {
-              "title": "Choose Guide Bundle",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "starter-monthly",
-            "product_name": "TravelTang Guide Bundle Monthly",
-            "credits": 100,
-            "valid_days": 30,
-            "group": "monthly",
-            "plan_name": "Guide Bundle"
-          },
-          {
-            "title": "Travel Assistant Pass",
-            "description": "Chatbot access with monthly billing.",
-            "label": "Popular",
-            "features_title": "Includes",
-            "features": [
-              "AI chatbot for China travel questions",
-              "Support for changing trip details",
-              "Useful across the planning and travel window",
-              "Monthly subscription access"
-            ],
-            "interval": "month",
-            "amount": 16900,
-            "currency": "USD",
-            "price": "$169",
-            "original_price": "$199",
-            "unit": "/ month",
-            "is_featured": true,
-            "tip": "The most flexible option for travelers needing ongoing answers.",
-            "button": {
-              "title": "Choose Assistant Pass",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "standard-monthly",
-            "product_name": "TravelTang Travel Assistant Pass Monthly",
-            "credits": 200,
-            "valid_days": 30,
-            "group": "monthly",
-            "plan_name": "Travel Assistant Pass"
-          },
-          {
-            "title": "Complete Travel Pack",
-            "description": "Full PDF and chatbot access with monthly billing.",
-            "features_title": "Includes",
-            "features": [
-              "Both paid PDFs",
-              "Travel chatbot access",
-              "A single package for pre-trip planning and live support",
-              "Monthly subscription access"
-            ],
-            "interval": "month",
-            "amount": 24900,
-            "currency": "USD",
-            "price": "$249",
-            "original_price": "$299",
-            "unit": "/ month",
-            "is_featured": false,
-            "tip": "Monthly plan for travelers who want the full product.",
-            "button": {
-              "title": "Choose Complete Pack",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium-monthly",
-            "product_name": "TravelTang Complete Travel Pack Monthly",
-            "credits": 300,
-            "valid_days": 30,
-            "group": "monthly",
-            "plan_name": "Complete Travel Pack"
-          },
-          {
-            "title": "Guide Bundle",
-            "description": "Annual guide access for frequent China travelers.",
-            "features_title": "Includes",
-            "features": [
-              "Alipay and WeChat Pay setup PDF",
-              "China city travel guide PDF",
-              "Year-round access",
-              "Good for travelers planning multiple trips"
-            ],
-            "interval": "year",
-            "amount": 82800,
-            "currency": "USD",
-            "price": "$69",
-            "original_price": "$89",
-            "unit": "/ month",
-            "is_featured": false,
-            "tip": "Lower effective monthly cost for repeat travelers.",
-            "button": {
-              "title": "Choose Guide Bundle",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "starter-yearly",
-            "product_name": "TravelTang Guide Bundle Yearly",
-            "credits": 1200,
-            "valid_days": 365,
-            "group": "yearly",
-            "plan_name": "Guide Bundle"
-          },
-          {
-            "title": "Travel Assistant Pass",
-            "description": "Annual chatbot access for frequent travelers.",
-            "label": "Popular",
-            "features_title": "Includes",
-            "features": [
-              "AI chatbot for China travel questions",
-              "Longer access for multiple trips",
-              "Support across repeated planning cycles",
-              "Year-round subscription access"
-            ],
-            "interval": "year",
-            "amount": 154800,
-            "currency": "USD",
-            "price": "$129",
-            "original_price": "$169",
-            "unit": "/ month",
-            "is_featured": true,
-            "tip": "Best annual value for travelers who revisit China or help others plan trips.",
-            "button": {
-              "title": "Choose Assistant Pass",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "standard-yearly",
-            "product_name": "TravelTang Travel Assistant Pass Yearly",
-            "credits": 2400,
-            "valid_days": 365,
-            "group": "yearly",
-            "plan_name": "Travel Assistant Pass"
-          },
-          {
-            "title": "Complete Travel Pack",
-            "description": "Annual access to both PDFs and the chatbot.",
-            "features_title": "Includes",
-            "features": [
-              "Both paid PDFs",
-              "Travel chatbot access",
-              "Best fit for frequent travelers and premium support needs",
-              "Year-round subscription access"
-            ],
-            "interval": "year",
-            "amount": 226800,
-            "currency": "USD",
-            "price": "$189",
-            "original_price": "$249",
-            "unit": "/ month",
-            "is_featured": false,
-            "tip": "The broadest TravelTang package with the lowest long-term unit cost.",
-            "button": {
-              "title": "Choose Complete Pack",
-              "url": "/#pricing",
-              "icon": "RiFlashlightFill"
-            },
-            "product_id": "premium-yearly",
-            "product_name": "TravelTang Complete Travel Pack Yearly",
-            "credits": 3600,
-            "valid_days": 365,
-            "group": "yearly",
-            "plan_name": "Complete Travel Pack"
+            "valid_days": 90
           }
         ]
       }
