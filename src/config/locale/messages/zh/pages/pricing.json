@@ -13,7 +13,7 @@
         "items": [
           {
             "title": "档位 1",
-            "description": "29 元，支持下载两份 PDF 文件。",
+            "description": "29 美元，支持下载两份 PDF 文件。",
             "features_title": "包含内容",
             "features": [
               "支付逻辑 PDF",
@@ -22,8 +22,8 @@
             ],
             "interval": "one-time",
             "amount": 2900,
-            "currency": "CNY",
-            "price": "¥29",
+            "currency": "USD",
+            "price": "$29",
             "unit": "",
             "is_featured": false,
             "tip": "适合只需要两份 PDF 资料的用户。",
@@ -39,7 +39,7 @@
           },
           {
             "title": "档位 2",
-            "description": "49 元，包含两份 PDF 和 AI 旅游助手。",
+            "description": "49 美元，包含两份 PDF 和 AI 旅游助手。",
             "label": "热门",
             "features_title": "包含内容",
             "features": [
@@ -50,8 +50,8 @@
             ],
             "interval": "one-time",
             "amount": 4900,
-            "currency": "CNY",
-            "price": "¥49",
+            "currency": "USD",
+            "price": "$49",
             "unit": "",
             "is_featured": true,
             "tip": "适合希望拿到资料并随时咨询 AI 助手的用户。",

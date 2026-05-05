@@ -13,7 +13,7 @@
         "items": [
           {
             "title": "Plan 1",
-            "description": "RMB 29 with download access to two PDF files.",
+            "description": "USD 29 with download access to two PDF files.",
             "features_title": "Includes",
             "features": [
               "Payment guide PDF",
@@ -22,8 +22,8 @@
             ],
             "interval": "one-time",
             "amount": 2900,
-            "currency": "CNY",
-            "price": "¥29",
+            "currency": "USD",
+            "price": "$29",
             "unit": "",
             "is_featured": false,
             "tip": "Best for users who only need the two PDF downloads.",
@@ -39,7 +39,7 @@
           },
           {
             "title": "Plan 2",
-            "description": "RMB 49 including both PDFs and the AI travel assistant.",
+            "description": "USD 49 including both PDFs and the AI travel assistant.",
             "label": "Popular",
             "features_title": "Includes",
             "features": [
@@ -50,8 +50,8 @@
             ],
             "interval": "one-time",
             "amount": 4900,
-            "currency": "CNY",
-            "price": "¥49",
+            "currency": "USD",
+            "price": "$49",
             "unit": "",
             "is_featured": true,
             "tip": "Best for users who want both PDF materials and ongoing AI help.",
