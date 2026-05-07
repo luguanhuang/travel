@@ -108,6 +108,20 @@ export const config = table('config', {
   value: text('value'),
 });
 
+export const pdfDownload = table(
+  'pdf_download',
+  {
+    id: varchar191('id').primaryKey(),
+    name: varchar('name', { length: 255 }).notNull(),
+    downloadUrl: text('download_url').notNull(),
+    remark: text('remark'),
+    coverImage: text('cover_image'),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at').defaultNow().onUpdateNow().notNull(),
+  },
+  (table) => [index('idx_pdf_download_created_at').on(table.createdAt)]
+);
+
 export const taxonomy = table(
   'taxonomy',
   {

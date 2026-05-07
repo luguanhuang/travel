@@ -29,6 +29,11 @@
           "icon": "DollarSign"
         },
         {
+          "title": "Guide",
+          "url": "/guide",
+          "icon": "FileText"
+        },
+        {
           "title": "Assistant",
           "icon": "RiRobot2Line",
           "children": [

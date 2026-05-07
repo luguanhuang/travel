@@ -122,6 +122,25 @@ export const config = table('config', {
   value: text('value'),
 });
 
+export const pdfDownload = table(
+  'pdf_download',
+  {
+    id: text('id').primaryKey(),
+    name: text('name').notNull(),
+    downloadUrl: text('download_url').notNull(),
+    remark: text('remark'),
+    coverImage: text('cover_image'),
+    createdAt: timestamp('created_at').defaultNow().notNull(),
+    updatedAt: timestamp('updated_at')
+      .defaultNow()
+      .$onUpdate(() => /* @__PURE__ */ new Date())
+      .notNull(),
+  },
+  (table) => [
+    index('idx_pdf_download_created_at').on(table.createdAt),
+  ]
+);
+
 export const taxonomy = table(
   'taxonomy',
   {

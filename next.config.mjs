@@ -29,7 +29,18 @@ const nextConfig = {
     ],
   },
   async redirects() {
-    return [];
+    return [
+      {
+        source: '/showcase',
+        destination: '/guide',
+        permanent: false,
+      },
+      {
+        source: '/showcases',
+        destination: '/guide',
+        permanent: false,
+      },
+    ];
   },
   async headers() {
     return [

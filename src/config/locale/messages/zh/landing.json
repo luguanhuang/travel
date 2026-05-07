@@ -29,6 +29,11 @@
           "icon": "DollarSign"
         },
         {
+          "title": "指南",
+          "url": "/guide",
+          "icon": "FileText"
+        },
+        {
           "title": "智能助手",
           "icon": "RiRobot2Line",
           "children": [

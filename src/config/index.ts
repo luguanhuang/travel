@@ -19,6 +19,9 @@ export const envConfigs: ConfigMap = {
   database_url: process.env.DATABASE_URL ?? '',
   database_auth_token: process.env.DATABASE_AUTH_TOKEN ?? '',
   database_provider: process.env.DATABASE_PROVIDER ?? 'postgresql',
+  supabase_url:
+    process.env.SUPABASE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL ?? '',
+  supabase_service_role_key: process.env.SUPABASE_SERVICE_ROLE_KEY ?? '',
   db_schema_file: process.env.DB_SCHEMA_FILE ?? './src/config/db/schema.ts',
   // PostgreSQL schema name (e.g. 'web'). Default: 'public'
   db_schema: process.env.DB_SCHEMA ?? 'public',

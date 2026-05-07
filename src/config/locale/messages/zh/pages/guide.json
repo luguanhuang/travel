@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "PDF 指南下载",
+    "description": "下载 TravelTang 中国旅行 PDF 指南"
+  },
+  "page": {
+    "title": "PDF 指南下载",
+    "sections": {
+      "guideDownloads": {
+        "id": "guide-downloads",
+        "block": "guide-downloads",
+        "label": "PDF 指南",
+        "title": "下载你的中国旅行指南",
+        "description": "两份面向海外游客的实用 PDF：一份讲中国支付逻辑，一份介绍中国旅行准备和落地注意事项。",
+        "button_text": "下载 PDF",
+        "unavailable_text": "即将上线",
+        "empty_text": "暂时还没有可下载的 PDF 指南。",
+        "items": [
+          {
+            "key": "payment",
+            "title": "中国支付逻辑指南",
+            "description": "介绍中国常见支付方式和使用逻辑，包括支付宝、微信支付、银行卡绑定、扫码支付，以及海外游客常遇到的设置问题。",
+            "highlights": [
+              "理解支付宝和微信支付在日常旅行中的使用方式",
+              "提前准备入境后可用的支付方案",
+              "减少银行卡绑定、验证和扫码支付中的常见错误"
+            ],
+            "match": ["payment", "alipay", "wechat"],
+            "fallback_image": "/payment.png"
+          },
+          {
+            "key": "travel",
+            "title": "中国旅游介绍指南",
+            "description": "面向来华旅行的基础介绍，涵盖常用本地 App、交通习惯、行前准备、城市出行和到达后的实际注意事项。",
+            "highlights": [
+              "了解入境中国前需要提前准备什么",
+              "熟悉交通、本地 App 和城市出行习惯",
+              "减少第一天落地后的信息差和不确定性"
+            ],
+            "match": ["travel", "trip", "city"],
+            "fallback_image": "/travel.png"
+          }
+        ]
+      }
+    }
+  }
+}

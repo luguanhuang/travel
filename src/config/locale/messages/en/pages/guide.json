@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "title": "Guide Downloads",
+    "description": "Download TravelTang PDF guides for China travel planning"
+  },
+  "page": {
+    "title": "Guide Downloads",
+    "sections": {
+      "guideDownloads": {
+        "id": "guide-downloads",
+        "block": "guide-downloads",
+        "label": "PDF Guides",
+        "title": "Download your China travel guides",
+        "description": "Two practical PDFs for overseas visitors: one explains China payment workflows, and one introduces travel preparation for China trips.",
+        "button_text": "Download PDF",
+        "unavailable_text": "Coming soon",
+        "empty_text": "No PDF guides are available yet.",
+        "items": [
+          {
+            "key": "payment",
+            "title": "China payment logic guide",
+            "description": "A practical guide to how payments work in China, including Alipay, WeChat Pay, bank card binding, QR-code payments, and common setup problems for international visitors.",
+            "highlights": [
+              "Understand how Alipay and WeChat Pay are used in daily travel",
+              "Prepare payment methods before arrival",
+              "Avoid common card binding and verification mistakes"
+            ],
+            "match": ["payment", "alipay", "wechat"],
+            "fallback_image": "/payment.png"
+          },
+          {
+            "key": "travel",
+            "title": "China travel introduction guide",
+            "description": "A concise travel introduction for China trips, covering local apps, transport habits, planning context, city movement, and practical expectations before and after arrival.",
+            "highlights": [
+              "Know what to prepare before entering China",
+              "Learn practical transport and local app habits",
+              "Plan city travel with fewer first-day surprises"
+            ],
+            "match": ["travel", "trip", "city"],
+            "fallback_image": "/travel.png"
+          }
+        ]
+      }
+    }
+  }
+}
