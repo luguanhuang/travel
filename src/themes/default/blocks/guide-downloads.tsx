@@ -5,6 +5,7 @@ import { Link } from '@/core/i18n/navigation';
 import { Button } from '@/shared/components/ui/button';
 import { cn } from '@/shared/lib/utils';
 import { Section } from '@/shared/types/blocks/landing';
+import { GuideDownloadNotice } from './guide-download-notice';
 
 type PdfDownloadItem = {
   id: string;
@@ -23,14 +24,20 @@ type GuideCardItem = {
   fallback_image?: string;
 };
 
+type GuideDownloadMessages = {
+  purchaseRequired?: string;
+};
+
 export function GuideDownloads({
   section,
   downloads = [],
   className,
+  messages,
 }: {
   section: Section;
   downloads?: PdfDownloadItem[];
   className?: string;
+  messages?: GuideDownloadMessages;
 }) {
   const cards = ((section.items || []) as GuideCardItem[]).map((item) => {
     const download = downloads.find((downloadItem) =>
@@ -53,6 +60,7 @@ export function GuideDownloads({
       id={section.id || section.name}
       className={cn('bg-background py-20 md:py-28', section.className, className)}
     >
+      <GuideDownloadNotice messages={messages} />
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
           {section.sr_only_title && (
@@ -117,11 +125,7 @@ export function GuideDownloads({
                   <div className="mt-auto pt-6">
                     {item.downloadUrl ? (
                       <Button asChild className="w-full">
-                        <Link
-                          href={item.downloadUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
+                        <Link href={item.downloadUrl}>
                           <ArrowDownToLine
                             className="size-4"
                             aria-hidden="true"

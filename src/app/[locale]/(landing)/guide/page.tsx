@@ -14,10 +14,13 @@ export const generateMetadata = getMetadata({
 
 export default async function GuidePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>;
+  searchParams: Promise<{ download?: string }>;
 }) {
   const { locale } = await params;
+  const { download } = await searchParams;
   setRequestLocale(locale);
 
   const [t, pdfDownloads] = await Promise.all([
@@ -47,6 +50,10 @@ export default async function GuidePage({
           remark: item.remark,
           coverImage: item.coverImage,
         })),
+        messages: {
+          purchaseRequired: t('page.sections.guideDownloads.messages.purchase_required'),
+        },
+        downloadStatus: download,
       }}
     />
   );

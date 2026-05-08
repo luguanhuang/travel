@@ -15,6 +15,9 @@
         "button_text": "Download PDF",
         "unavailable_text": "Coming soon",
         "empty_text": "No PDF guides are available yet.",
+        "messages": {
+          "purchase_required": "Purchase is required before downloading."
+        },
         "items": [
           {
             "key": "payment",

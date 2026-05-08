@@ -5,6 +5,7 @@ import { useChat } from '@ai-sdk/react';
 import { DefaultChatTransport, UIMessage } from 'ai';
 
 import { useChatContext } from '@/shared/contexts/chat';
+import { useChatAccess } from '@/shared/hooks/use-chat-access';
 import { Chat } from '@/shared/types/chat';
 
 import { FollowUp } from './follow-up';
@@ -19,6 +20,7 @@ export function ChatBox({
   initialMessages?: UIMessage[];
 }) {
   const { chat, setChat } = useChatContext();
+  const { access } = useChatAccess();
 
   // create chat instance
   const chatInstance = useChat({
@@ -51,6 +53,17 @@ export function ChatBox({
       <ChatHeader />
       <div className="flex-1 overflow-y-auto">
         <div className="mx-auto w-full px-4 py-6 md:max-w-3xl">
+          {access && !access.canChat ? (
+            <div
+              className={
+                access.state === 'upgrade_required'
+                  ? 'mb-4 rounded-2xl border border-amber-300/60 bg-amber-50 px-4 py-3 text-sm text-amber-950'
+                  : 'mb-4 rounded-2xl border border-rose-300/60 bg-rose-50 px-4 py-3 text-sm text-rose-950'
+              }
+            >
+              {access.message}
+            </div>
+          ) : null}
           <ChatMessages chatInstance={chatInstance} />
         </div>
       </div>

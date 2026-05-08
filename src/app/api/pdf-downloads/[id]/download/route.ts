@@ -14,6 +14,12 @@ function getLocalizedPath(reqUrl: string, path: string) {
   return path;
 }
 
+function getGuideStatusUrl(reqUrl: string, status: string) {
+  const guideUrl = new URL(getLocalizedPath(reqUrl, '/guide'), reqUrl);
+  guideUrl.searchParams.set('download', status);
+  return guideUrl;
+}
+
 export async function GET(
   _req: Request,
   { params }: { params: Promise<{ id: string }> }
@@ -44,7 +50,7 @@ export async function GET(
 
   if (!pdfDownload?.downloadUrl) {
     return NextResponse.redirect(
-      new URL(getLocalizedPath(_req.url, '/pricing'), _req.url)
+      getGuideStatusUrl(_req.url, 'purchase-required')
     );
   }
 

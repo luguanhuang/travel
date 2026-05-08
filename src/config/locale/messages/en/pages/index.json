@@ -31,7 +31,7 @@
             "variant": "default"
           },
           {
-            "title": "Open Travel Assistant",
+            "title": "Chat with AI Guide",
             "icon": "MessageCircle",
             "url": "/chat",
             "target": "_self",
@@ -347,7 +347,7 @@
             "icon": "Zap"
           },
           {
-            "title": "Open Chatbot",
+            "title": "Chat with AI Guide",
             "url": "/chat",
             "target": "_self",
             "variant": "outline",

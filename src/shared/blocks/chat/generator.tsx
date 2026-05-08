@@ -11,6 +11,7 @@ import { PromptInputMessage } from '@/shared/components/ai-elements/prompt-input
 import { SidebarTrigger } from '@/shared/components/ui/sidebar';
 import { useAppContext } from '@/shared/contexts/app';
 import { useChatContext } from '@/shared/contexts/chat';
+import { useChatAccess } from '@/shared/hooks/use-chat-access';
 
 import { ChatInput } from './input';
 
@@ -22,6 +23,7 @@ export function ChatGenerator() {
 
   const { user, setIsShowSignModal } = useAppContext();
   const { chats, setChats, setChat } = useChatContext();
+  const { access } = useChatAccess();
 
   const [status, setStatus] = useState<UseChatHelpers<UIMessage>['status']>();
   const [error, setError] = useState<string | null>(null);
@@ -87,7 +89,7 @@ export function ChatGenerator() {
     }
 
     if (!body.model) {
-      toast.error('please select a model');
+      toast.error('model is required');
       return;
     }
 
@@ -108,6 +110,7 @@ export function ChatGenerator() {
       <div className="mx-auto -mt-16 flex h-screen w-full flex-1 flex-col items-center justify-center px-4 pb-6 md:max-w-2xl">
         <h2 className="mb-4 text-center text-3xl font-bold">{t('title')}</h2>
         <ChatInput
+          access={user ? access : null}
           error={error}
           handleSubmit={handleSubmit}
           onInputChange={() => {

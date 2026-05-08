@@ -34,16 +34,9 @@
           "icon": "FileText"
         },
         {
-          "title": "Assistant",
-          "icon": "RiRobot2Line",
-          "children": [
-            {
-              "title": "Travel Chatbot",
-              "description": "Ask practical questions about traveling in China",
-              "url": "/chat",
-              "icon": "RiMessage2Line"
-            }
-          ]
+          "title": "Chat",
+          "url": "/chat",
+          "icon": "RiMessage2Line"
         }
       ]
     },
@@ -105,7 +98,7 @@
               "target": "_self"
             },
             {
-              "title": "Travel Chatbot",
+              "title": "Chat",
               "url": "/chat",
               "target": "_self"
             }
@@ -125,7 +118,7 @@
               "target": "_self"
             },
             {
-              "title": "Chat Assistant",
+              "title": "Chat",
               "url": "/chat",
               "target": "_self"
             }

@@ -89,12 +89,18 @@
     }
   },
   "generator": {
-    "title": "向 TravelTang 询问中国旅行问题",
-    "input_placeholder": "可提问支付、火车、高铁、城市出行、本地 App 或行程规划"
+    "title": "向 TravelTang 咨询中国旅行问题",
+    "input_placeholder": "可提问支付、火车、高铁、城市出行、本地 App 或行程规划",
+    "access": {
+      "upgrade_title": "需要升级",
+      "upgrade_description": "你已购买 Plan 1，请升级到 Plan 2 后使用 AI 旅行助手。",
+      "purchase_title": "需要先购买",
+      "purchase_description": "请先购买套餐以解锁 AI 旅行助手，Plan 2 包含聊天权限。"
+    }
   },
   "history": {
     "title": "历史对话",
-    "description": "查看之前问过的旅行问题与答案。",
+    "description": "查看之前提问过的旅行问题与回答。",
     "empty": "暂无对话记录。",
     "error": "加载对话列表失败。",
     "retry": "重试",

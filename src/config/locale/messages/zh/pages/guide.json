@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "PDF 指南下载",
-    "description": "下载 TravelTang 中国旅行 PDF 指南"
+    "description": "下载 TravelTang 的中国旅行 PDF 指南"
   },
   "page": {
     "title": "PDF 指南下载",
@@ -15,6 +15,9 @@
         "button_text": "下载 PDF",
         "unavailable_text": "即将上线",
         "empty_text": "暂时还没有可下载的 PDF 指南。",
+        "messages": {
+          "purchase_required": "需要购买后才能下载。"
+        },
         "items": [
           {
             "key": "payment",

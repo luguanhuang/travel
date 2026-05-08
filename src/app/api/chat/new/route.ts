@@ -1,8 +1,13 @@
 import { generateId } from 'ai';
 
+import { CHAT_MODEL } from '@/shared/constants/chat';
 import { respData, respErr } from '@/shared/lib/resp';
 import { ChatStatus, createChat, NewChat } from '@/shared/models/chat';
 import { getUserInfo } from '@/shared/models/user';
+import {
+  getChatAccessErrorMessage,
+  getChatAccessForCurrentUser,
+} from '@/shared/services/chat-access';
 
 export async function POST(req: Request) {
   try {
@@ -10,16 +15,16 @@ export async function POST(req: Request) {
     if (!message || !message.text) {
       throw new Error('message is required');
     }
-    if (!body || !body.model) {
-      throw new Error('please select a model');
-    }
 
     const user = await getUserInfo();
     if (!user) {
       throw new Error('no auth, please sign in');
     }
 
-    // todo: check user credits
+    const access = await getChatAccessForCurrentUser();
+    if (!access?.canChat) {
+      throw new Error(getChatAccessErrorMessage(access));
+    }
 
     // todo: get provider from settings
     const provider = 'openrouter';
@@ -43,12 +48,15 @@ export async function POST(req: Request) {
       status: ChatStatus.CREATED,
       createdAt: currentTime,
       updatedAt: currentTime,
-      model: body.model,
+      model: CHAT_MODEL,
       provider: provider,
       title: title,
       parts: '',
       // parts: JSON.stringify(parts),
-      metadata: JSON.stringify(body),
+      metadata: JSON.stringify({
+        ...body,
+        model: CHAT_MODEL,
+      }),
       content: JSON.stringify(message),
     };
 

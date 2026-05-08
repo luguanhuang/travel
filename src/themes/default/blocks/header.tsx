@@ -95,7 +95,10 @@ export function Header({ header }: { header: HeaderType }) {
                     href={item.url || ''}
                     target={item.target || '_self'}
                     className={`flex flex-row items-center gap-2 px-4 py-1.5 text-sm ${
-                      item.is_active || pathname.endsWith(item.url as string)
+                      item.is_active ||
+                      pathname === item.url ||
+                      pathname.startsWith(`${item.url}/`) ||
+                      pathname.endsWith(item.url as string)
                         ? 'bg-muted/40 text-muted-foreground'
                         : ''
                     }`}

@@ -8,6 +8,7 @@ import { nanoid } from 'nanoid';
 
 import { PromptInputMessage } from '@/shared/components/ai-elements/prompt-input';
 import { useChatContext } from '@/shared/contexts/chat';
+import { useChatAccess } from '@/shared/hooks/use-chat-access';
 
 import { ChatInput } from './input';
 
@@ -18,6 +19,7 @@ export function FollowUp({
 }) {
   const params = useParams();
   const { chat } = useChatContext();
+  const { access } = useChatAccess();
   const {
     messages,
     sendMessage,
@@ -145,5 +147,7 @@ export function FollowUp({
     return null;
   }
 
-  return <ChatInput handleSubmit={submitMessage} status={status} />;
+  return (
+    <ChatInput access={access} handleSubmit={submitMessage} status={status} />
+  );
 }

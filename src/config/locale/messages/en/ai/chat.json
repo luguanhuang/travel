@@ -90,7 +90,13 @@
   },
   "generator": {
     "title": "Ask about traveling in China",
-    "input_placeholder": "Ask about payments, trains, city travel, apps, or planning"
+    "input_placeholder": "Ask about payments, trains, city travel, apps, or planning",
+    "access": {
+      "upgrade_title": "Upgrade required",
+      "upgrade_description": "You bought Plan 1. Upgrade to Plan 2 to chat with the AI travel guide.",
+      "purchase_title": "Purchase required",
+      "purchase_description": "Buy a plan to unlock the AI travel guide. Plan 2 includes chat access."
+    }
   },
   "history": {
     "title": "Chat history",
